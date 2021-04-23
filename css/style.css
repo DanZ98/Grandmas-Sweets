@@ -37,6 +37,7 @@ Navigation Section
 
 .nav-link {
   color: var(--mainPink);
+  font-size: 1.5rem;
 }
 
 .nav-link:hover {
