@@ -14,3 +14,56 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+
+/*
+#######################################################
+
+Navigation Section
+
+#######################################################
+*/
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.toggler-icon {
+  font-size: 2.5rem;
+  color: var(--mainPink);
+}
+
+.nav-link {
+  color: var(--mainPink);
+}
+
+.nav-link:hover {
+  color: var(--mainBlack);
+}
+
+/* cart styles */
+.cart-info__icon {
+  color: var(--mainBlack);
+  cursor: pointer;
+}
+
+.cart-info {
+  border: 0.1rem solid var(--mainBlack);
+  color: var(--mainBlack);
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+
+.cart-info:hover {
+  background: var(--mainPink);
+  border-color: var(--mainPink);
+  color: var(--mainWhite);
+}
+
+.cart-info:hover .cart-info__icon {
+  color: var(--mainWhite);
+}
+/* end cart styles */
