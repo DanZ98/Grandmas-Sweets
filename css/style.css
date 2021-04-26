@@ -250,3 +250,29 @@ Services Section
     word-spacing: 0.5rem;
 }
 
+
+/*
+#######################################################
+
+Footer Section
+
+#######################################################
+*/
+
+.footer-title {
+    background: var(--mainBlack);
+}
+
+.footer-contact {
+    background: var(--mainGrey);
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    color: var(--mainWhite);
+    transition: all 0.4 ease-in-out;
+}
+
+.footer-icon:hover {
+    color: var(--mainPink);
+}
