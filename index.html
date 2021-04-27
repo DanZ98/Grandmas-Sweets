@@ -57,26 +57,26 @@ https://www.iconfinder.com/korawan_m
         </li>
     </ul>
     <div class="nav-info-items d-none d-lg-flex">
-    <!-- single info -->
-    <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
-        <span class="info-icon mx-lg-3">
-            <i class="fas fa-phone"></i>
-        </span>
-        <p class="mb-0">+ 123 456 789</p>
-    </div>
-    <!-- single info -->
-    <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
-        <span class="cart-info__icon mr-lg-3">
-            <i class="fas fa-shopping-cart"></i>
-        </span>
-        <p class="mb-0 text-capitalize">
-            <span id="item-count">2</span>
-            items - $
-            <span class="item-total">
-            10.49
+        <!-- single info -->
+        <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3">
+                <i class="fas fa-phone"></i>
             </span>
-        </p>
-    </div>
+            <p class="mb-0">+ 123 456 789</p>
+        </div>
+        <!-- single info -->
+        <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+            <span class="cart-info__icon mr-lg-3">
+                <i class="fas fa-shopping-cart"></i>
+            </span>
+            <p class="mb-0 text-capitalize">
+                <span id="item-count">2</span>
+                items - $
+                <span class="item-total">
+                10.49
+                </span>
+            </p>
+        </div>
     </div>
 </div>
 </nav>
@@ -84,15 +84,67 @@ https://www.iconfinder.com/korawan_m
 
 <!-- banner -->
 <div class="container-fluid">
-<div class="row max-height justify-content-center align-items-center">
-    <div class="col-10 mx-auto banner text-center">
-    <h1 class="text-capitalize">
-    welcome to <strong class="banner-title">grandma's</strong>
-    </h1>
-    <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+    <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center">
+            <h1 class="text-capitalize">
+            welcome to <strong class="banner-title">grandma's</strong>
+            </h1>
+            <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+        </div>
+
+        <!-- cart -->
+        <div class="cart" id="cart">
+
+            <!-- cart item -->
+            <div class="cart-item d-flex text-capitalize my-3 justify-content-around">
+                <img src="img-cart/cake-2.jpeg" class="img-fluid rounded-circle" id="item-img" alt="cake">
+                <div class="item-text">
+                    <p id="cart-item-title" class="font-weight-bold mb-0">
+                        cart item
+                    </p>
+                    <span>$</span>
+                    <span id="cart-item-price" class="cart-item-price mb-0">10.99</span>
+                </div>
+                <a href="#" id="cart-item-remove" class="cart-item-remove">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </div>
+            <!-- end cart item -->
+
+            <!-- cart item -->
+            <div class="cart-item d-flex text-capitalize my-3 justify-content-around">
+                <img src="img-cart/cupcake-1.jpeg" class="img-fluid rounded-circle" id="item-img" alt="cupcake">
+                <div class="item-text">
+                    <p id="cart-item-title" class="font-weight-bold mb-0">
+                        cart item
+                    </p>
+                    <span>$</span>
+                    <span id="cart-item-price" class="cart-item-price mb-0">10.99</span>
+                </div>
+                <a href="#" id="cart-item-remove" class="cart-item-remove">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </div>
+            <!-- end cart item -->
+
+            <!-- total -->
+            <div class="cart-total-container d-flex justify-content-between text-capitalize mt-5">
+                <h5>total</h5>&nbsp;&nbsp;
+                <h5>$ <strong id="cart-total" class="font-weight-bold">10.00</strong></h5>
+            </div>
+            <!-- end total -->
+
+            <!-- cart buttons -->
+            <div class="cart-button-container mt-3 d-flex justify-content-between">
+                <a href="#" id="clear-cart" class="btn btn-black text-uppercase">clear cart</a>
+                <a href="#" id="clear-cart" class="btn btn-pink text-uppercase">checkout</a>
+            </div>
+            <!-- end cart buttons -->
+
+        </div>
+        <!-- end cart -->
+
     </div>
-    <!-- store -->
-</div>
 </div>
 <!-- end of banner -->
 
