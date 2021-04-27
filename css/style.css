@@ -154,7 +154,7 @@ Banner Section
 
 .max-height {
     min-height:calc(100vh - 76px);
-    background:linear-gradient(var(--yellowTrans), var(--yellowTrans)), url(../img/headerBcg.jpeg) center/cover fixed no-repeat;
+    background:linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)), url(../img/headerBcg.jpeg) center/cover fixed no-repeat;
     position: relative;
 }
 
